@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "ITD Banner Generator - инструмент для создания баннеров профиля на itd.com",
   "main": "index.html",
+  "homepage": "https://marchellolemonchello.github.io/itdbanner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarchelloLemonchello/itdBanner"
+  },
   "scripts": {
     "start": "serve .",
     "deploy": "gh-pages -d ."
   },
-  "keywords": ["banner", "itd", "profile", "generator"],
-  "author": "Your Name",
+  "keywords": ["banner", "itd", "profile", "generator", "canvas", "image-editor"],
+  "author": "MarchelloLemonchello",
   "license": "MIT",
   "devDependencies": {
     "serve": "^14.0.0",

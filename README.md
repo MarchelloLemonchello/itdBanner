@@ -18,7 +18,7 @@
 ## 🚀 Быстрый старт
 
 ### Онлайн использование
-1. Перейдите на [itdbanner.github.io](https://github.com/MarchelloLemonchello/itdBanner)
+1. Перейдите на [itdbanner.github.io](https://marchellolemonchello.github.io/itdBanner)
 2. Следуйте инструкциям ниже
 
 ### Локальная установка
