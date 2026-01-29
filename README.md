@@ -1,6 +1,6 @@
 # 🎨 ITD Banner Generator
 
-**Версия 1.0** | [Демо на GitHub Pages](https://github.com/MarchelloLemonchello/itdBanner)
+**Версия 1.0** | [Демо на GitHub Pages](https://marchellolemonchello.github.io/itdBanner/)
 
 
 Инструмент для создания и настройки баннеров профиля на сайте **itd.com**. Позволяет легко создавать, редактировать и устанавливать баннеры без необходимости использования графических редакторов.
