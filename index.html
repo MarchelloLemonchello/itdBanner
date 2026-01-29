@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Image Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+
+        #canvasContainer {
+            position: relative;
+            display: inline-block;
+            border: 2px solid #333;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        #canvas, #overlayCanvas {
+            display: block;
+        }
+
+        #overlayCanvas {
+            cursor: move;
+        }
+
+        .info {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="file" id="fileInput" accept="image/*">
+</div>
+
+<div id="canvasContainer">
+    <canvas id="canvas" width="0" height="0"></canvas>
+    <canvas id="overlayCanvas"
+            width="1"
+            height="1"
+            style="position: absolute; top: 0; left: 0;"></canvas>
+</div>
+
+<div>
+    <button id="createBanner">create banner</button>
+    <br>
+    <canvas id="banner"></canvas>
+</div>
+<div id="copy"style="display: none">
+    <button onclick="copy()" id="copyButton">copy</button>
+    <br>
+    <textarea cols="200" rows="200" id="copyTextArea"></textarea>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
